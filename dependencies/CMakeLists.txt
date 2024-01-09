@@ -2,7 +2,9 @@ include(FetchContent)
 
 set(SFML_VERSION 2.6.0)
 set(IMGUI_VERSION 1.90)
-# set(IMGUI_SFML_VERSION 2.6)
+set(IMGUI_SFML_VERSION 2.6)
+set(FETCHCONTENT_BASE_DR "${CMAKE_BINARY_DIR}/FetchContent")
+set(FETCHCONTENT_QUIET FALSE) # when set to true, this command suppresses download/extraction msgs
 
 # It's nice to get stripped-down release zips instead of cloning
 # a repo and checking out a tag
