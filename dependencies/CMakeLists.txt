@@ -1,8 +1,8 @@
 include(FetchContent)
 
-set(SFML_VERSION 2.5.1)
-set(IMGUI_VERSION 1.87)
-# set(IMGUI_SFML_VERSION 2.3)
+set(SFML_VERSION 2.6.0)
+set(IMGUI_VERSION 1.9)
+# set(IMGUI_SFML_VERSION 2.6)
 
 # It's nice to get stripped-down release zips instead of cloning
 # a repo and checking out a tag
